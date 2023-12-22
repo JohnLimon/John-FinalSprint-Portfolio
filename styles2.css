@@ -1,0 +1,104 @@
+
+.center-box {
+    background-color: gray;
+    padding: 0px;
+    border-radius: 8px;
+    text-align: center;
+    margin: 0px; 
+    /*max-width: 600px;*/
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /*background: url('Forest.jpeg') no-repeat center center fixed;*/
+    background-size: cover;
+    background-color: lightblue;
+}
+
+header {
+    background-color: gray;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+nav a:hover {
+    background-color: blue; 
+}
+
+main {
+    padding: 20px;
+}
+
+.intro {
+    max-width: 600px;
+    margin: auto;
+    background-color: lightblue; 
+    padding: 20px;
+    border-radius: 8px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.intro h2 {
+    color: #000; 
+}
+
+/* Adjust the size of the Profile Pic image */
+.intro img {
+    display: block;
+    margin: auto;
+    width: 40%;
+    height: auto;
+}
+
+/* Add styling for the paragraph */
+.intro p {
+    color: black; 
+    margin-top: 20px; 
+}
+
+/* Footer styling */
+footer {
+    background-color: gray;
+    text-align: center;
+    padding: 10px;
+}
+
+footer a {
+    color: #fff; /* White text color for the GitHub link */
+    text-decoration: none;
+}
+
+footer p {
+    color: #fff; /* White text color for the contact paragraph */
+    margin: 10px 0; /* Add some margin for spacing */
+}
+
+footer a:hover {
+    color: blue;
+}

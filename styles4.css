@@ -1,0 +1,140 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-size: cover;
+    background-color: lightblue;
+}
+
+header {
+    background-color: gray;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    color: #fff; /* White text color for the title */
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+nav a:hover {
+    background-color: blue; /* blue color on hover */
+}
+
+main {
+    padding: 20px;
+}
+
+#projects {
+    text-align: center; /* Center text within the #projects section */
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    text-align: center;
+}
+
+#projects h2 {
+    color: black; /* black text color for the "Projects" section */
+    background-color: blue; /* blue box background */
+    padding: 10px;
+    border-radius: 8px;
+    width: min-content;
+    margin: 10px auto; /* Center text */
+}
+
+.image-scroll-box {
+    max-width: 900px;
+    height: 600px;
+    margin: auto;
+    background-color: blue; /* blue box background */
+    padding: 20px;
+    border-radius: 8px;
+    overflow: hidden; /* Hide overflow for the scrolling effect */
+    position: relative; /* Required for the absolute positioning of images */
+}
+
+.image-scroll-box img {
+    max-width: 10%;
+    height: auto;
+    display: block;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    transform: translate(-10%, -10%);
+    opacity: 0; /* Initially hide images */
+    transition: opacity 0.5s ease-in-out; /* Add a smooth transition */
+}
+
+.image-scroll-box img.active {
+    opacity: 1; /* Show the active image */
+}
+
+/* Footer styling */
+footer {
+    background-color: gray;
+    text-align: center;
+    padding: 10px;
+}
+
+footer a {
+    color: #fff; /* White text color for the GitHub link */
+    text-decoration: none;
+}
+
+footer p {
+    color: #fff; /* White text color for the contact paragraph */
+    margin: 10px 0; /* Add some margin for spacing */
+}
+
+footer a:hover {
+    color: blue;
+}
+
+/* Slideshow */
+
+.project-box .image-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.project-box .image-container.active {
+    opacity: 1;
+}
+
+.project-box .image-title {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 8px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+}

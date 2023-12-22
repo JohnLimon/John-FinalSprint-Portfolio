@@ -1,0 +1,109 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-size: cover;
+    background-color: lightblue;
+    min-height: 100vh; /* Set minimum height to 100% of the viewport height */
+    position: relative; /* Set the body as a relative position */
+}
+
+header {
+    background-color: gray;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    color: #fff; /* White text color for the title */
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+nav a:hover {
+    background-color: blue; /* blue color on hover */
+}
+
+main {
+    padding: 20px;
+    flex: 1; /* Allow the main content to grow and fill the remaining space */
+}
+
+.intro {
+    max-width: 600px;
+    margin: auto;
+    /*background-color: #80fb84; /* Light green box background */
+    padding: 20px;
+    border-radius: 8px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.intro h2 {
+    color: white; /*Black text color inside the "About Me" box */
+}
+
+#contact-info {
+    padding: 80px;
+    text-align: center; /* Center text within the #contact-info section */
+    color: white;
+    background-color: blue; /* fuchsia box background */
+   
+}
+
+#contact-info h2 {
+    color: #000000; /* Black text */
+
+}
+
+/* Footer styling */
+footer {
+    background-color: gray;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: #fff; /* White text color for the GitHub link */
+    text-decoration: none;
+}
+
+footer p {
+    color: #fff; /* White text color for the contact paragraph */
+    margin: 10px 0; /* Add some margin for spacing */
+}
+
+footer a:hover {
+    color: blue;
+}
+
+/* Socials image */
+
+.socials {
+    width: 15%;
+    height: auto;
+    display: block;
+    margin: auto; /* Center the image */
+    margin-bottom: 20px; 
+}
